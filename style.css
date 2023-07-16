@@ -185,7 +185,7 @@ nav ul a {
     justify-content: center;
 }
 
-.facts-box img{
+.facts-box img {
     width: 45px;
     height: 45px;
     margin-bottom: 10px;
@@ -203,6 +203,20 @@ nav ul a {
     font-weight: 600;
 }
 
+/* SPONSOR SECTION */
+.sponsors-container {
+    margin-bottom: 100px;
+}
+
+.sponsor-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-content {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -243,18 +257,30 @@ nav ul a {
         padding: 0;
     }
 
-    .facts-content{
+    .facts-content {
         text-align: center;
     }
 
-    .facts-card{
+    .facts-card {
         flex-direction: column;
         gap: 15px;
         align-items: center;
     }
 
-    .facts-para{
+    .facts-para {
         margin-bottom: 30px;
+    }
+
+    .sponsor-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sponsor-content img {
+        width: 165px;
+        height: 50px;
+        margin-bottom: 15px;
     }
 
 }
@@ -296,20 +322,34 @@ nav ul a {
     }
 
 
-    .facts-content{
+    .facts-content {
         text-align: center;
     }
 
-    .facts-para{
+    .facts-para {
         margin-bottom: 30px;
     }
-    
-    .facts-card{
+
+    .facts-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
-    
+
         padding-left: 70px;
+    }
+
+    .sponsor-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sponsor-content img {
+        width: 165px;
+        height: 50px;
+        margin-bottom: 15px;
     }
 
 }
