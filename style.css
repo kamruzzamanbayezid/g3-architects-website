@@ -48,6 +48,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
     margin-bottom: 100px;
 }
 
@@ -184,6 +185,7 @@ nav ul a {
     }
     .team-content{
         text-align: center;
+        padding: 0;
     }
   
 }
@@ -220,5 +222,6 @@ nav ul a {
     }
     .team-content{
         text-align: center;
+        padding: 0;
     }
 }
