@@ -32,10 +32,11 @@ main {
 
 /* HEADER STYLES */
 
-.header-section{
+.header-section {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 header {
     max-width: 120rem;
     margin: 0 auto;
@@ -112,7 +113,7 @@ nav ul a {
     gap: 4.5rem;
 }
 
-.team-content{
+.team-content {
     padding-right: 70px;
 }
 
@@ -145,12 +146,63 @@ nav ul a {
     margin-bottom: 30px;
 }
 
-.teams-img-content{
+.teams-img-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     /* width: 100%; */
 }
+
+
+/* FACTS SECTION */
+.facts-container {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.facts-title {
+    margin-bottom: 24px;
+}
+
+.facts-para {
+    margin-bottom: 100px;
+}
+
+.facts-card {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.facts-box {
+    border-radius: 8px;
+    border: 0.50px #FF900E solid;
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facts-box img{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.card-para {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 
 
@@ -176,18 +228,35 @@ nav ul a {
     nav ul li a {
         font-weight: bolder;
     }
-    .teams-container{
+
+    .teams-container {
         flex-direction: column-reverse;
         padding: 15px;
     }
-    .teams-img-content{
+
+    .teams-img-content {
         grid-template-columns: repeat(1, 1fr);
     }
-    .team-content{
+
+    .team-content {
         text-align: center;
         padding: 0;
     }
-  
+
+    .facts-content{
+        text-align: center;
+    }
+
+    .facts-card{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .facts-para{
+        margin-bottom: 30px;
+    }
+
 }
 
 /* MEDIUM DEVICE */
@@ -217,11 +286,30 @@ nav ul a {
         margin-bottom: 20px;
     }
 
-    .teams-container{
+    .teams-container {
         flex-direction: column-reverse;
     }
-    .team-content{
+
+    .team-content {
         text-align: center;
         padding: 0;
     }
+
+
+    .facts-content{
+        text-align: center;
+    }
+
+    .facts-para{
+        margin-bottom: 30px;
+    }
+    
+    .facts-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    
+        padding-left: 70px;
+    }
+
 }
