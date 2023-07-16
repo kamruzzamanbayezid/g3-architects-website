@@ -286,6 +286,10 @@ footer h4 {
         margin-bottom: 30px;
     }
 
+    .sponsors-container{
+        padding: 15px;
+    }
+
     .sponsor-content {
         flex-direction: column;
         justify-content: center;
@@ -365,6 +369,10 @@ footer h4 {
         width: 165px;
         height: 50px;
         margin-bottom: 15px;
+    }
+
+    .sponsors-container{
+        padding: 15px;
     }
 
 }
