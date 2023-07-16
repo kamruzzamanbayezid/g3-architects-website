@@ -25,7 +25,7 @@
     border: 2px solid brown;
 }
 
-main {
+main, footer {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -216,6 +216,21 @@ nav ul a {
 .sponsor-content {
     display: flex;
     justify-content: space-between;
+}
+
+
+/* FOOTER */
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+footer h4 {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 39px 0;
 }
 
 
