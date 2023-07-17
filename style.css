@@ -148,8 +148,9 @@ nav ul a {
 
 
 .feature-img img {
-    max-width: 44.25rem;
-    max-height: 61.375rem;
+    /* max-width: 44.25rem;
+    max-height: 61.375rem; */
+    width: 100%;
 }
 
 .img-box-title {
@@ -393,6 +394,10 @@ footer h4 {
     /* .feature-content-items{
         text-align: center;
     } */
+
+    .features-container{
+        padding: 15px;
+    }
     .feature-item-box{
         text-align: center;
     }
@@ -468,6 +473,10 @@ footer h4 {
     }
 
     .sponsors-container {
+        padding: 15px;
+    }
+
+    .features-container{
         padding: 15px;
     }
 
